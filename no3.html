@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Her Out</title>
+
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    body {
+      background-color: #f8d7e1; /* Soft pink background */
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+      animation: pulse 1.5s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.05); }
+    }
+
+    h1 {
+      color: #ff3399;
+    }
+
+    p {
+      font-size: 22px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .btn a {
+      background-color: #ff3399;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-size: 22px;
+      cursor: pointer;
+      margin: 10px;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+
+    .btn a:hover {
+      background-color: #ff1a75;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="tenor-gif-embed" data-postid="16299184" data-share-method="host" data-aspect-ratio="1.26923"
+      data-width="100%">
+      <a href="https://tenor.com/view/sad-crying-tears-sad-face-cute-gif-16299184">Sad Crying GIF</a> from
+      <a href="https://tenor.com/search/sad-crying-tears">Sad Crying Stickers</a>
+    </div>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+    <h1>我知道我错了，请不要生气！😭😓</h1>
+    <p>你是我最好的朋友，我不想让你伤心。我会更加小心，保证不再做让你不开心的事。</p>
+
+    <div class="btn">
+      <a href="yes.html">Yes</a>
+      <a href="#" id="move-random">No</a>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
